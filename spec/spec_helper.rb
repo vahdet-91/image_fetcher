@@ -1,6 +1,6 @@
 require "bundler/setup"
 require "image_fetcher"
-require 'helpers/helpers'
+require 'helpers'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

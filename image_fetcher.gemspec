@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["veeuoh@hotmail.co.uk"]
 
   spec.summary       = "A module that downloads images through URLs from a txt file."
-  spec.description   = "This gem has one function with three arguments. The first argument is a txt file that contains the URLs of the images, the second argument is the file extension you would like for your images (default value is gif), the third argument is the directory of where you would like to store your images (default path is the one where the module is being called) "
-  spec.homepage      = "http://rubygems.org/gems/image_fetcher"
+  spec.description   = "This gem has one module with one function that takes three arguments. The first argument is a txt file that contains the URLs of the images, the second argument is the directory of where you would like to store your images (default path is the one where the module is being called), the third argument is the file extension you would like for your images (default value is gif)"
+  spec.homepage      = "https://github.com/vahdet-91/image_fetcher.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
