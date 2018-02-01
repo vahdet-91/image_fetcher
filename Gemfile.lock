@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    image_fetcher (0.0.2)
+    image_fetcher (0.0.3)
 
 GEM
   remote: https://rubygems.org/
