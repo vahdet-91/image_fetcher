@@ -16,7 +16,7 @@ module ImageFetcher
      			  end
   		    end
         end
-  		rescue Timeout::Error, Net::OpenTimeout, SocketError => e
+  		rescue Timeout::Error, Net::OpenTimeout, SocketError, Errno::ECONNREFUSED => e
   			e.message
 			end
   	end
