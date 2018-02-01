@@ -5,7 +5,7 @@ require "image_fetcher/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "image_fetcher"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Vahdet Pervan"]
   spec.email         = ["veeuoh@hotmail.co.uk"]
 
