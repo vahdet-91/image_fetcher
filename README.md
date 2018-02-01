@@ -24,9 +24,9 @@ Or install it yourself as:
 ```ruby
 ImageFetcher.get_all_images('images.txt') #Downloads images and saves them relative to the where the file is calling this function
 
-ImageFetcher.get_all_images('images.txt, '/some/directory') #Downloads and saves images in the specified directory
+ImageFetcher.get_all_images('images.txt, "/some/directory") #Downloads and saves images in the specified directory
 
-ImageFetcher.get_all_images('images.txt', '/some/directory' 'gif') #Downloads and saves images as gifs in the specified directory
+ImageFetcher.get_all_images('images.txt', "/some/directory", 'gif') #Downloads and saves images as gifs in the specified directory
 
 ```
 
