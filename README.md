@@ -22,6 +22,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+#NOTE: Source file must located relative to where this function is being called, otherwise specify the full path and the file name
 ImageFetcher.get_all_images('images.txt') #Downloads images and saves them relative to the where the file is calling this function
 
 ImageFetcher.get_all_images('images.txt, "/some/directory") #Downloads and saves images in the specified directory
